@@ -2,7 +2,6 @@
 /**
  * Throttle function
  *
- * @param {Component} C
  * @param {Function} fn - function to throttle
  * @param {Number} threshold - timeout for throttling
  * @param {Object} scope

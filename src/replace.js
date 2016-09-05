@@ -34,10 +34,6 @@ export default function replace(
         child = c(child);
     }
 
-    if(child.hasOwnProperty('kompo')) {
-        child.render()
-    }
-
     if(arg2isObject) {
         addAttributes(child, replaceLastChild);
     }
