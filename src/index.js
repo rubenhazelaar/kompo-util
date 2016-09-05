@@ -1,3 +1,4 @@
+import capitalize from './capitalize';
 import create, {createFragment, createText, addAttributes} from './create';
 import debounce from './debounce';
 import delegate from './delegate';
@@ -10,6 +11,7 @@ import throttle from './throttle';
 
 
 export {
+    capitalize,
     create, createFragment, createText, addAttributes,
     debounce,
     delegate,
