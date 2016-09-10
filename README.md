@@ -1,26 +1,18 @@
-# Kompo
+# Kompo Util
+
+This repository contains utility functions which are provided for ease-of-use or syntactic sugar, more or less specific for the Kompo library.
+
+## Kompo
 
 Kompo is a react js like library which tries to stay as simple as possible. No virtual DOM or JSX. 
 Kompo loves the DOM & makes it possible to build interfaces through components.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/rubenhazelaar/kompo-util/master/LICENSE)
-[![Build Status](https://travis-ci.org/rubenhazelaar/kompo.svg?branch=master)](https://travis-ci.org/rubenhazelaar/kompo-util)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![Dependency Status](https://david-dm.org/rubenhazelaar/kompo.svg?style=flat-square)](https://david-dm.org/rubenhazelaar/kompo-util)
-[![devDependency Status](https://david-dm.org/rubenhazelaar/kompo-util/dev-status.svg?style=flat-square)](https://david-dm.org/rubenhazelaar/kompo-util#info=devDependencies)
-
-It's lightweight (3KB minified & gzipped), easy to understand & use. The only build tool you'll need is a bundler 
-like browserify or webpack.
- 
-Kompo's core concept is that of components. Together with a simple Router (inspired by Ember & React routers)
- and some helpers Kompo helps to build interfaces, which load fast and stay fast.
- 
-This repository contains utility functions which are provided for ease-of-use or syntactic sugar, more or less specific for the Kompo library.
+[Check out Kompo](https://github.com/rubenhazelaar/kompo)
  
 ## Install
 
 ```bash
-npm install --save kompo
+npm install --save kompo-util
 ```
 
 ## Build
@@ -32,23 +24,11 @@ npm run build
 Need the UMD or minified build? Use:
 
 ```bash
-npm run build-umd
+npm run build:umd
 ```
 
 ```bash 
-npm run build-min
-```
-
-Build the examples with the following command:
-
-```bash
-npm run examples-build
-
-```
-Or use the one below if you want to experiment.
-
-```bash
-npm run examples-watch
+npm run build:min
 ```
 
 ## Test
@@ -61,7 +41,11 @@ Please note: testing is still a work-in-progress and you can help out! Please ch
 
 ## How to use
 
-TODO
+Check out the `./src/` folder for all avaiable functions and their descriptions.
+
+## Todo
+
+- Create a function for adding multiple classes to an Element
 
 ## Contribute
 
