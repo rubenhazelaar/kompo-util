@@ -10,7 +10,7 @@ import merge from './merge';
 import remove from './remove';
 import replace from './replace';
 import throttle from './throttle';
-
+import addClasses from './addClasses';
 
 export {
     capitalize,
@@ -24,5 +24,6 @@ export {
     merge,
     remove,
     replace,
-    throttle
+    throttle,
+    addClasses
 };
