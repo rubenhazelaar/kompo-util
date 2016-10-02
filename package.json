@@ -1,6 +1,6 @@
 {
   "name": "kompo-util",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Utility functions for the Kompo library. Kompo is a react like library which tries to stay simple as possible. No virtual DOM or JSX. Kompo loves the DOM.",
   "main": "./lib/index.js",
   "repository": {
