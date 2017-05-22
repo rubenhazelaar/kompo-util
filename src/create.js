@@ -17,7 +17,7 @@ export default function create(tagName: ?string, attributes: ?attributes): Eleme
         Element = doc.createElement(tagName);
     }
 
-    if(!attributes) {
+    if(attributes) {
         addAttributes(Element, attributes);
     }
 
