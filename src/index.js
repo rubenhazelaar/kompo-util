@@ -11,6 +11,7 @@ import remove from './remove';
 import replace from './replace';
 import throttle from './throttle';
 import addClasses from './addClasses';
+import mergeDeep from './mergeDeep';
 
 export {
     capitalize,
@@ -21,7 +22,7 @@ export {
     isFunction,
     isObject,
     matches,
-    merge,
+    merge, mergeDeep,
     remove,
     replace,
     throttle,

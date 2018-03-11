@@ -1,4 +1,10 @@
 // @flow
+
+// Guard against other environments then web
+if (typeof window !== 'object') {
+    return;
+}
+
 const doc: Document = document;
 
 /**
