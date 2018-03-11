@@ -1,12 +1,4 @@
 // @flow
-
-// Guard against other environments then web
-if (typeof window !== 'object') {
-    return;
-}
-
-const doc: Document = document;
-
 /**
  * Creates an Element, when no tagName
  * is given it create an empty div to serve
@@ -18,9 +10,9 @@ const doc: Document = document;
 export default function create(tagName: ?string, attributes: ?attributes): Element {
     let Element: Element;
     if(!tagName) {
-        Element = doc.createElement('div');
+        Element = document.createElement('div');
     } else {
-        Element = doc.createElement(tagName);
+        Element = document.createElement(tagName);
     }
 
     if(attributes) {
@@ -54,7 +46,7 @@ export function addAttributes(Element: Element, obj: attributes): Element {
  * @returns {DocumentFragment}
  */
 export function createFragment(): DocumentFragment {
-    return doc.createDocumentFragment();
+    return document.createDocumentFragment();
 }
 
 /**
@@ -64,5 +56,5 @@ export function createFragment(): DocumentFragment {
  * @returns {Text}
  */
 export function createText(str: string): Text {
-    return doc.createTextNode(str);
+    return document.createTextNode(str);
 }
