@@ -5,6 +5,8 @@
  * Used with event delegation in Components class
  */
 export default (function(): void {
+    if (!global.Element) return; // Check if global Element is available else do nothing
+
     if (!Element.prototype.matches) {
         const ep: Element = Element.prototype;
 
